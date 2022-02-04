@@ -1,7 +1,8 @@
 .header-one {
   background-color: #b0f1f1;
   min-height: 40vh;
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQO44ESzk6kGQIbujcVH5prxSRKu_yLSzfA&usqp=CAU); 
+  background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_761,q_75,w_1903/v1/clients/estespark/5e41e3c7_3174_472a_b85c_ffe35dc7250f_bccff069-05e4-4991-81a5-764ca41e10ad.jpg); 
+  
 }
 
 .header-text {
@@ -13,9 +14,14 @@
   min-height: 25vh;
 }
 
+
 .section-two {
   background-color: coral;
   min-height: 45vh;
+}
+
+.card-spill {
+  transform: translateY(60px);
 }
 
 .section-three {
