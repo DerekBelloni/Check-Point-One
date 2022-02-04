@@ -24,6 +24,12 @@
   transform: translateY(60px);
 }
 
+@media screen and (max-width: 992px) {
+  .card-spill{
+    transform: translateY(0px);
+  }
+}
+
 .section-three {
   background-color: greenyellow;
   min-height: 35vh;
