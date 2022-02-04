@@ -1,16 +1,26 @@
 .header-one {
   background-color: #b0f1f1;
   min-height: 40vh;
-  background-image: url(https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_761,q_75,w_1903/v1/clients/estespark/5e41e3c7_3174_472a_b85c_ffe35dc7250f_bccff069-05e4-4991-81a5-764ca41e10ad.jpg); 
-  
+  background-image: url(https://images.unsplash.com/photo-1643785011662-3f1407410f6f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60); 
+  background-size: cover;
+  background-position: center;
 }
 
 .header-text {
-  color: aliceblue;
+  color: #55626d;
+  background-color: #9bd9e9b6;
+  backdrop-filter: blur(15px);
+  max-width: 100vh;
+  max-height: 25vh;
+}
+
+.header-card-bg {
+  background-color: #9bd9e9b6;
+  backdrop-filter: blur(15px);
 }
 
 .section-one {
-  background-color: #ecbc63;
+  background-color: #383735;
   min-height: 25vh;
 }
 
@@ -33,6 +43,23 @@
 .section-three {
   background-color: greenyellow;
   min-height: 35vh;
+}
+
+.alien-icon {
+  padding-left: 3rem;
+  color: #a5ff1e;
+}
+
+.center-card {
+  height: 20rem;
+}
+
+.left-card {
+  height: 18rem;
+}
+
+.right-card {
+  height: 18rem;
 }
 
 .footer-one {

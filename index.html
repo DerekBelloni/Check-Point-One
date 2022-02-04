@@ -29,11 +29,52 @@
   </style>
 </head>
 
-<body class="debug">
+<nav class="sticky-top navbar navbar-expand-lg navbar-light header-card-bg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<body class="">
   <header class="container-fluid header-one">
     <div class="row p-4">
       <div class="col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
+        <div class="card header-card-bg" style="width: 18rem;">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
@@ -51,7 +92,7 @@
           </div>
         </div>
       </div>
-      <div class="col-8 header-text d-none d-md-block d-lg-block">
+      <div class="col-8 header-text d-none d-md-block d-lg-block d-flex justify-content-center">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis illo aut debitis consequuntur iste odit
           asperiores consequatur pariatur quod beatae enim, perferendis aliquam consectetur animi. Ea sapiente velit
           modi odit!</p>
@@ -61,10 +102,12 @@
 
   <main class="container-fluid">
     <div class="row section-one">
-      <div class="col-12 col-lg-5">
-        <h2>Section 1 Text</h2>
+      <div class="order-2 order-lg-1 col-12 col-lg-5">
+        <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, laborum ipsam tempore totam sit error
+            assumenda nostrum natus qui repellendus placeat magnam minus quasi, fuga dolorum velit, labore at? In?</b>
+        </p>
       </div>
-      <div class="col-12 col-lg-7 align-items-center">
+      <div class="order-1 order-lg-2 col-12 col-lg-7 align-items-center">
         <div class="card text-white bg-info card-spill" style="max-width: 60rem">
           <div class="card-header">Lets GO!</div>
           <div class="card-body">
@@ -79,17 +122,17 @@
     <div class="row section-two">
       <div class="col-12 col-lg-3 d-flex align-items-center">
         <img class="img-fluid"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGUVpQBdZE0OqEWzkknN0r6bBbOmMPCtaSFw&usqp=CAU"
+          src="https://images.unsplash.com/photo-1514686435060-fca6efae9594?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
           alt="">
       </div>
-      <div class="col-12 col-lg-9">
-        <h2>Section 2 Icon & Text</h2>
+      <div class="col-12 col-lg-9 d-flex align-items-center alien-icon">
+        <h2><i class="mdi mdi-alien-outline"></i></h2>
       </div>
     </div>
 
     <div class="row section-three align-items-center p-4">
       <div class="order-2 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
+        <div class="card left-card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -101,7 +144,7 @@
         </div>
       </div>
       <div class="order-1 order-lg-2 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
+        <div class="card center-card" style="width: 20rem;">
           <div class="card-body">
             <h5 class="card-title">Card title #1</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
@@ -114,7 +157,7 @@
       </div>
 
       <div class="order-3 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card" style="width: 18rem;">
+        <div class="card right-card" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
