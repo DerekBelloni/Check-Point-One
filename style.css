@@ -89,6 +89,7 @@
   background-color: #00b4d8;
 }
 .center-card {
+  width: 18rem;
   height: 20rem;
   background-color: #ff0054;
   color: white;
@@ -100,12 +101,14 @@
 }
 
 .left-card {
+  width: 14rem;
   height: 18rem;
   background-color: #ff0054;
   color: white;
 }
 
 .right-card {
+  width: 14rem;
   height: 18rem;
   background-color: #ff0054;
   color: white;
