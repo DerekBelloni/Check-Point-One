@@ -32,9 +32,9 @@
   </style>
 </head>
 
-<nav class="sticky-top navbar navbar-expand-lg navbar-light header-card-bg">
+<nav class="sticky-top navbar navbar-expand-lg navbar-light navcard-bg imported-font">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand text-light" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -42,14 +42,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link text-light" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-            aria-expanded="false">
+          <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -62,12 +62,12 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
+          <a class="nav-link disabled text-light">Disabled</a>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-light" type="submit">Search</button>
       </form>
     </div>
   </div>
@@ -75,99 +75,102 @@
 
 <body class="">
   <header class="container-fluid header-one">
-    <div class="row p-4">
-      <div class="col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card header-card-bg imported-font" style="width: 18rem;">
+    <div class="row p-4 justify-content-center">
+      <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-center">
+        <div class="card header-card-bg text-light imported-font" style="width: 18rem;">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
               content.</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item ">Cras justo odio</li>
             <li class="list-group-item">Dapibus ac facilisis in</li>
             <li class="list-group-item">Vestibulum at eros</li>
           </ul>
           <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <a href="#" class="card-link text-light">Card link</a>
+            <a href="#" class="card-link text-light">Another link</a>
           </div>
         </div>
       </div>
-      <div class="col-8 header-text d-none d-md-block d-lg-block d-flex justify-content-center">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis illo aut debitis consequuntur iste odit
+      <div class="col-8 col-md-6 imported-font header-text d-none d-md-block d-lg-block d-flex justify-content-center">
+        <h4>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis illo aut debitis consequuntur iste odit
           asperiores consequatur pariatur quod beatae enim, perferendis aliquam consectetur animi. Ea sapiente velit
-          modi odit!</p>
+          modi odit!</h4>
       </div>
     </div>
   </header>
 
   <main class="container-fluid">
     <div class="row section-one p-2">
-      <div class="order-2 order-lg-1 col-12 col-lg-5">
-        <p><b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, laborum ipsam tempore totam sit error
-            assumenda nostrum natus qui repellendus placeat magnam minus quasi, fuga dolorum velit, labore at? In?</b>
+      <div
+        class="order-2 order-md-2 order-lg-1 col-12 col-md-6 col-lg-5 d-flex mb-2 p-2 align-items-center text-light imported-font section-one-text">
+        <p>
+          The Western Painted Turtle is the state reptile of Colorado. They have been known to occasionally stalk and
+          hunt humans, especially during the fall.
         </p>
       </div>
-      <div class="order-1 order-lg-2 col-12 col-lg-7 align-items-center">
-        <div class="card text-white section-two-card card-spill" style="max-width: 60rem">
-          <div class="card-header">Lets GO!</div>
+      <div class="order-1 order-md-2 order-lg-2 col-12 col-md-6 col-lg-7 align-items-center">
+        <div class="card text-white section-one-card card-spill imported-font" style="max-width: 60rem">
+          <div class="card-header">If you see one, RUN!</div>
           <div class="card-body">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor sed dicta nostrum aliquid, enim,
-              doloribus nesciunt officiis sunt vero modi eius totam, provident minima assumenda eligendi repellendus
-              dolorum similique!</p>
+            <p>They may look cute but they are ferocious! Possessing razor sharp fangs, retractable claws and a
+              propensity
+              to hunt in packs, they are the preminent apex predator of the Rocky Mountains. Don't fact check that.</p>
           </div>
         </div>
       </div>
     </div>
 
     <div class="row section-two">
-      <div class="col-12 col-lg-3 d-flex align-items-center">
-        <img class="img-fluid"
+      <div class="col-12 col-lg-3 d-flex align-items-center pt-2">
+        <img class="img-fluid img-border"
           src="https://images.unsplash.com/photo-1642866737498-23bccd3b4621?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc0fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=60"
           alt="">
       </div>
-      <div class="col-12 col-lg-9 d-flex align-items-center alien-icon">
-        <h2><i class="mdi mdi-alien-outline"></i></h2>
+      <div class="col-12 col-lg-9 d-flex align-items-center imported-font p-2 pe-2 section-two-text">
+        <h2><i class="mdi mdi-alien-outline alien-icon align-items-center"></i></h2>
+        <p>A picture of a lake next to a glowing alien ... hmmm? If you find yourself wondering why, well the answer is
+          quite
+          simple, aliens really like lakes. Don't bother looking that up though, there is a giant conspiracy to cover it
+          up and everyone is in on it, including Big Tech, NASA, Martha Stewart and the Chicago Bulls.</p>
       </div>
+
 
     </div>
 
     <div class="row section-three align-items-center p-4">
       <div class="order-2 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card left-card" style="width: 18rem;">
+        <div class="card left-card imported-font text-center" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">Sea Otters!!!</h5>
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQi3yGRqLc86GY42RHWSnz_47-LEe3JAvJ2w&usqp=CAU"
+              alt="">
+
           </div>
         </div>
       </div>
       <div class="order-1 order-lg-2 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card center-card" style="width: 20rem;">
-          <div class="card-body">
-            <h5 class="card-title">Card title #1</h5>
-            <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+        <div class="card center-card imported-font text-center d-flex pb-2" style="width: 20rem;">
+          <div class="card-body center-card-img pb-2">
+            <h5 class="card-title">Chile Crunch!!!</h5>
+            <!-- <p class="card-text">Chile Crunch is the best condiment known to man.</p> -->
+            <img class="img-fluid center-card-img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3_jWd9P3a1yo3hCZ-2Mn3lkDSeqfklR448g&usqp=CAU"
+              alt="">
           </div>
         </div>
       </div>
 
       <div class="order-3 col-12 col-lg-4 d-flex justify-content-center">
-        <div class="card right-card" style="width: 18rem;">
+        <div class="card right-card imported-font text-center" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <h6 class="card-subtitle mb-2 text-light">Card subtitle</h6>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <h5 class="card-title">Mangoes!!!</h5>
+            <img class="img-fluid"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_2-jPlyxPO5TV3Pxav8wLp-WCeTdsmcjymg&usqp=CAU"
+              alt="">
           </div>
         </div>
       </div>
@@ -176,14 +179,22 @@
 
 
   <footer class="container-fluid">
-    <div class="row footer-one">
-      <h1>Footer Section 1</h1>
+    <div class="row footer-one text-light imported-font p-5">
+      <h2>Footer Section 1</h2>
+      <p><b>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, accusantium! Iusto, nam deserunt cupiditate
+          illum autem dolor. Sunt, minus? Nulla in, nisi dignissimos aspernatur officia explicabo placeat doloribus
+          excepturi quibusdam?</b></p>
     </div>
-    <div class="row footer-two">
-      <h1>Footer Section 2
-      </h1>
+    <div class="row footer-two text-light imported-font p-5">
+      <div class="col-12">
+        <h2>Footer Section 2</h2>
+        <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores numquam nostrum enim corporis sunt
+            reiciendis hic, placeat sequi modi, inventore quia eius a tempora autem. Corporis rerum voluptatum vel
+            officia?</b></p>
+      </div>
     </div>
   </footer>
+
 
 
 
